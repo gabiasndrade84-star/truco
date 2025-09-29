@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truco Mineiro - Regras e Curiosidades</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 2px solid #333;
+        }
+
+        header h1 {
+            color: #00ffaa;
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #00ffaa;
+            border-bottom: 2px solid #00ffaa;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            border-top: 2px solid #333;
+        }
+
+        .destaque {
+            color: #00ffaa;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Truco Mineiro</h1>
+    <p>O truco cheio de blefe, tradição e emoção de Minas Gerais</p>
+</header>
+
+<main>
+
+    <section id="introducao">
+        <h2>O que é o Truco Mineiro?</h2>
+        <p>O Truco Mineiro é uma das variações mais populares do jogo de truco no Brasil. É jogado principalmente no estado de Minas Gerais e tem regras, manilhas e estratégias próprias que o diferenciam de outras versões como o Truco Paulista ou Gaúcho.</p>
+    </section>
+
+    <section id="estrutura">
+        <h2>Estrutura do Jogo</h2>
+        <ul>
+            <li>Jogado com 4 jogadores (duplas), mas pode ser adaptado para 2 ou 6.</li>
+            <li>Utiliza-se um baralho comum de 40 cartas (sem 8, 9 e 10).</li>
+            <li>Cada jogador recebe 3 cartas por rodada.</li>
+            <li>O objetivo é vencer 2 das 3 "vazas" (rodadas).</li>
+        </ul>
+    </section>
+
+    <section id="manilhas">
+        <h2>Manilhas Variáveis</h2>
+        <p>O Truco Mineiro é conhecido por usar <span class="destaque">manilhas variáveis</span>, ou seja, a carta virada no início da rodada determina quais são as cartas mais fortes do jogo.</p>
+        <ul>
+            <li>A carta seguinte à virada é a manilha mais fraca (entre as manilhas).</li>
+            <li>Há quatro manilhas por rodada, sempre as cartas seguintes à virada (em ordem de naipe).</li>
+            <li>Ordem de força das manilhas varia a cada mão.</li>
+        </ul>
+        <p><strong>Exemplo:</strong> Se a carta virada for um 4, então as manilhas serão os 5 de paus, copas, espadas e ouros (em ordem de força definida pelo naipe).</p>
+    </section>
+
+    <section id="pontuacao">
+        <h2>Pontuação e Gritos</h2>
+        <ul>
+            <li>O jogo começa com cada rodada valendo 1 ponto.</li>
+            <li>Um jogador pode pedir "Truco!" — elevando a rodada para 3 pontos.</li>
+            <li>O adversário pode aceitar, correr (fugir e perder 1 ponto) ou aumentar para 6, 9 ou 12 pontos, com os gritos: "Seis!", "Nove!" e "Doze!".</li>
+            <li>O jogo termina quando uma dupla alcança <span class="destaque">12 pontos</span>.</li>
+        </ul>
+    </section>
+
+    <section id="estilo">
+        <h2>Estilo de Jogo</h2>
+        <p>O estilo do Truco Mineiro é mais descontraído e centrado no blefe do que em outras versões. Os jogadores costumam:</p>
+        <ul>
+            <li>Fingir que têm cartas fortes quando não têm.</li>
+            <li>Jogar cartas rapidamente para confundir o adversário.</li>
+            <li>Fazer "cara de truqueiro" e usar frases para distrair ou enganar o oponente.</li>
+        </ul>
+        <p>Mais do que técnica, o jogo exige <span class="destaque">sangue frio e jogo de cena</span>.</p>
+    </section>
+
+    <section id="expressoes">
+        <h2>Expressões Típicas do Truco Mineiro</h2>
+        <ul>
+            <li><span class="destaque">"Truco, ladrão!"</span> – usado para desafiar de forma provocativa.</li>
+            <li><span class="destaque">"Vamo ver!"</span> – quando o jogador aceita o desafio do truco.</li>
+            <li><span class="destaque">"Correu!"</span> – quando o oponente foge do desafio.</li>
+            <li><span class="destaque">"Blefou bonito!"</span> – quando alguém ganha fingindo que tinha a melhor carta.</li>
+        </ul>
+    </section>
+
+    <section id="curiosidades">
+        <h2>Curiosidades</h2>
+        <ul>
+            <li>Em muitas cidades mineiras, o truco é jogado em praças, bares e festas de família.</li>
+            <li>Campeonatos amadores de truco são comuns no interior de Minas.</li>
+            <li>Algumas regiões têm regras específicas sobre viradas e empates.</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Truco Mineiro - Página dedicada ao jogo raiz de Minas Gerais</p>
+</footer>
+
+</body>
+</html>
